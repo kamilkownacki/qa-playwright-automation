@@ -1,12 +1,14 @@
 # QA Playwright Automation
 
-A small UI automation portfolio testing [Sauce Demo](https://www.saucedemo.com/), a public demo shop designed for testing practice. It covers login, products, cart behaviour and checkout using Playwright and TypeScript.
+[![Playwright tests](https://github.com/kamilkownacki/qa-playwright-automation/actions/workflows/playwright.yml/badge.svg)](https://github.com/kamilkownacki/qa-playwright-automation/actions/workflows/playwright.yml)
+
+Playwright + TypeScript UI automation portfolio testing [Sauce Demo](https://www.saucedemo.com/), a public demo shop designed for testing practice. It covers login, products, cart behaviour and checkout with a focus on practical QA coverage, test isolation, maintainable Page Objects and CI.
+
+Built as a hands-on bridge from more than four years of manual QA experience, mainly in games, into browser test automation.
 
 ## About This Project
 
-I have more than four years of manual QA experience, mainly in games, and I am learning test automation. This is a hands-on project to connect that QA experience with automated browser checks, rather than an example of an advanced custom framework.
-
-AI tools assisted with implementation and documentation. My learning process includes reviewing the scenarios, QA coverage, validation and project structure manually, using the learning guide to understand and change the tests. AI assistance is disclosed because understanding the code matters more than claiming to have written every line unaided.
+The project is intentionally scoped as a realistic QA automation portfolio rather than an oversized custom framework. It demonstrates test design, smoke/regression organisation, reusable page actions, clear assertions, failure evidence and continuous integration while keeping the structure easy to explain and maintain.
 
 ## What Is Covered
 
@@ -162,9 +164,9 @@ There is no `utils/` directory yet because no shared utility is needed.
 - [Interview notes](docs/INTERVIEW_NOTES.md): short project-specific answers.
 - [Validation record](docs/VALIDATION.md): checks, results and limitations.
 
-## What I Learned
+## Skills Practised
 
-This project is designed to practise the following skills. Before presenting it, I should be able to explain and demonstrate each one myself:
+The project is intentionally small enough that each part can be understood, explained and changed rather than hidden behind framework complexity. It covers:
 
 - Playwright test structure, `beforeEach` and test isolation.
 - Accessible locators and the demo's `data-test` attributes.
@@ -175,6 +177,10 @@ This project is designed to practise the following skills. Before presenting it,
 - HTML reports, screenshots, videos and traces.
 - Strict TypeScript, linting and reproducible npm installation.
 - CI with GitHub Actions and investigation of flaky failures.
+
+## Development Note
+
+AI tools assisted with implementation and documentation. Test scenarios, QA coverage, validation and project structure were reviewed manually, and the repository includes a learning guide to support understanding and independent changes. AI assistance is disclosed because being able to explain and maintain the tests matters more than claiming every line was written unaided.
 
 ## Future Improvements
 
@@ -187,4 +193,8 @@ Add these only when there is a clear learning goal or coverage gap:
 - Multiple environments when a second test target exists.
 - Reusable fixtures if repeated setup becomes hard to maintain.
 
-First, understand the current tests and add one meaningful scenario independently.
+The current scope stays deliberately focused on understandable, maintainable browser automation.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
